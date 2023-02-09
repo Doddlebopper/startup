@@ -8,3 +8,6 @@ Additional Info:
 If you don't believe me, then visit davesskippolicy.com
 It's my Uncle's personal website.![CS260 Startup Project](https://user-images.githubusercontent.com/122325330/215030090-06cd3a37-c3fd-49af-abe1-f10797269c37.png)
 
+What I have learned notes:
+
+./deployFiles.sh -k ~/downaloads/production1.pem -h davesskippolicy.net -s simon // creates a new "website" of sorts that puts all of the files from the simon into.
