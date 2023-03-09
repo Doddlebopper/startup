@@ -50,3 +50,45 @@ IP addresses are the the addresses of servers. IP addresses are how computers fi
 IP layers:
 
 Application // Transport (TCP) // Internet (IP) // Link // 
+
+To point to another DNS record, you shoud use the following DNS record type - CNAME
+
+You can use this CSS to load fonts from Google - @import url(##) - True
+
+Following output - new Promise(resolve,reject) -> { setTimeout(() -> { console.log('taco');, .then() = shake, = burger fries taco shake noodles
+
+Which is valid JSON? - {"x":3}
+
+Using CSS how would you turn only the BYU text blue? - div.header { color: blue;}
+
+Following is not valid way to include JavaScript in HTML? - <javascript>1+1</javascript>
+
+let a = ['cow', rat, fish]; a.filter(v->v.match(/A|f/i)); console.log(b) = ['rat','fish']
+
+Not a valid javascript function - function f(x) = {}
+
+CSS property padding .. puts space around the content of selected elements
+
+Order of the CSS box model, starting from the outside going in? - margin, border, padding, content
+
+[cow, rat, fish] b = a.reduce(a,v) -> [a,v].join(":") = cow:rat:fish
+
+HTML tag for an unordered list? - <ul>
+
+following code do? - querySelector('P) .addEveentListener() - Adds a mouseover to listener
+
+HTML Create a valid hyperlink? - <a href="https:...">Name</a>
+
+DOM textContent property do? - sets child text for an element
+
+DNS Subdomain - cs260.cs.byu.edu
+
+flex-direction: column-reverse; = <p>Hello</p><p>World</p> = world hello
+
+const f = y -> ++y; console.log(f(3)) = 4
+
+valid JavaScript object? - {n:1}
+
+following console command makes a script executable? - chmod +x deploy.sh
+
+what does <div> do? - creates division element
