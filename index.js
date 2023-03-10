@@ -7,8 +7,9 @@ btn.onclick = function () {
  count++;
   disp.innerHTML = count;
 }
-
+/*
 rstBtn.onclick = function () {
  count = 0;
  disp.innerHTML = count;
 }
+*/
