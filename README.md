@@ -92,3 +92,7 @@ valid JavaScript object? - {n:1}
 following console command makes a script executable? - chmod +x deploy.sh
 
 what does <div> do? - creates division element
+  
+ //JavaScript Startup Notes//
+  I learned that JavaScript is a C based language, and since I have knowledge in the C programming field, JavaScript came quite easy to me. There was a lot that I didn't know and a lot that I still don't understand, but I understand the basics and hope to learn more.
+  
