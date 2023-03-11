@@ -1,25 +1,17 @@
 var count = 0;
 var starter = "";
 var btn = document.getElementById("btnCount");
-var btn11 = document.getElementById("btn1");
-var btn2 = document.getElementById("btn2");
-var btn3 = document.getElementById("btn3");
-var btn4 = document.getElementById("btn4");
 var disp = document.getElementById("display");
+var disp1 = document.getElementById("display1");
+var disp2 = document.getElementById("display2");
+var disp3 = document.getElementById("display3");
+var disp4 = document.getElementById("display4");
 var btn1 = document.getElementById("btnReset");
-var score = document.getElementById("name").value;
-var score1 = document.getElementById("name1").value;
-var score2 = document.getElementById("name2").value;
-var score3 = document.getElementById("name3").value;
-var name = document.getElementById("name0");
-var name1 = document.getElementById("name11");
-var name2 = document.getElementById("name22");
-var name3 = document.getElementById("name33");
+var btn2 = document.getElementById("btn1");
+var btn3 = document.getElementById("btn2");
+var btn4 = document.getElementById("btn3");
+var btn5 = document.getElementById("btn4");
 
-score.addEventListener("score", updateValue);
-score1.addEventListener("score1", updateValue1);
-score2.addEventListener("score2", updateValue2);
-score3.addEventListener("score3", updateValue3);
 
 btn.onclick = function () {
  count++;
@@ -31,35 +23,47 @@ btn1.onclick = function () {
  disp.innerHTML = count;
 }
 
-btn11.onclick = function () {
- name.innerHTML = " ";
+btn2.onclick = function() {
+  disp1.innerHTML = 0;
+  document.getElementById("name").value = '';
 }
 
-btn2.onclick = function () {
- name1.innerHTML = " ";
+btn3.onclick = function() {
+  disp2.innerHTML = 0;
+  document.getElementById("name1").value = '';
 }
 
-btn3.onclick = function () {
- name2.innerHTML = " ";
+btn4.onclick = function() {
+  disp3.innerHTML = 0;
+  document.getElementById("name2").value = '';
 }
 
-btn4.onclick = function () { 
- name3.innerHTML = " ";
+btn5.onclick = function() {
+  disp4.innerHTML = 0;
+  document.getElementById("name3").value = '';
 }
 
-function updateValue(e) {
- name.innerHTML = e.target.value;
+function myFunction() {
+  var x = document.getElementById("name").value;
+  document.getElementById("display1").innerHTML = x;
+  document.getElementById("name").value = "";
 }
 
-function updateValue1(e) {
- name1.innerHTML = e.target.value;
+function myFunction1() {
+  var x = document.getElementById("name1").value;
+  document.getElementById("display2").innerHTML = x;
+  document.getElementById("name1").value = "";
 }
 
-function updateValue2(e) {
- name2.innerHTML = e.target.value;
+function myFunction2() {
+  var x = document.getElementById("name2").value;
+  document.getElementById("display3").innerHTML = x;
+  document.getElementById("name2").value = "";
 }
 
-function updateValue3(e) {
- name3.innerHTML = e.target.value;
+function myFunction3() {
+  var x = document.getElementById("name3").value;
+  document.getElementById("display4").innerHTML = x;
+  document.getElementById("name3").value = "";
 }
 
