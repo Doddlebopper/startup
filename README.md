@@ -93,6 +93,11 @@ following console command makes a script executable? - chmod +x deploy.sh
 
 what does <div> do? - creates division element
   
+  //HTML and CSS Startup Notes// 
+  Bootstrap link - https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
+  </span/> is for a text inline markup, and buttons need an ID in order to be seen by CSS and javascript.
+  button submit types allow for it to be pressed, and reset is for resetting input/text
+  
  //JavaScript Startup Notes//
   I learned that JavaScript is a C based language, and since I have knowledge in the C programming field, JavaScript came quite easy to me. There was a lot that I didn't know and a lot that I still don't understand, but I understand the basics and hope to learn more.
   
