@@ -143,6 +143,12 @@ app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
 */
+
+//Simon DB Notes// 
+  MongoDB Specialty is JSON objects - Contains no strict schema requirements
+  npm install mongodb - installs mongo
+  Environment Variable - load Mongo credentials when application executes. Protects credentials when posting to Github repository
+  database cluster - collection of databases that is managed by a single instance of a running database
   
 
   
