@@ -150,6 +150,12 @@ app.listen(port, () => {
   Environment Variable - load Mongo credentials when application executes. Protects credentials when posting to Github repository
   database cluster - collection of databases that is managed by a single instance of a running database
   
+//Simon Authentication Service Notes// 
+  cookieParser = require('cookie-parser') // Creates the cookie-parser so that we can use cookies
+  bcrypt = require('bcrypt') // allows us to hash our passwords, secure one way version
+  bcrypt.compare() // compares previous password stored in database, to inserted password
+  -c -b parameters // tell curl to store and use cookies within the given file
+  
 
   
   
