@@ -156,6 +156,12 @@ app.listen(port, () => {
   bcrypt.compare() // compares previous password stored in database, to inserted password
   -c -b parameters // tell curl to store and use cookies within the given file
   
+//Simon WebSocket Service Notes//
+  wss - WebSocketServer
+  #*const {WebSocketServer} = require('ws'); = creates a new WebSocketServer variable that can .on or .send code
+  #*const socket = new WebSocket('ws://localhost:9900'); = creates a socket variable that can send and receieve messages from the browser to the console.
+  
+  
 
   
   
