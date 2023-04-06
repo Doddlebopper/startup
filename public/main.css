@@ -5,3 +5,13 @@ main {
   align-items: center;
   justify-content: space-around;
 }
+
+.quote-box {
+  margin-top: 1em;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+.quote {
+  font-style: italic;
+}
