@@ -1,19 +1,17 @@
-function displayQuote(data) {
-  fetch('https://api.quotable.io/random')
+function displayPicture() {
+  const random = Math.floor(Math.random() * 1000);
+  fetch(`https://picsum.photos/v2/list?page=${random}&limit=1`)
     .then((response) => response.json())
     .then((data) => {
-      const containerEl = document.querySelector('#quote');
+      const containerEl = document.querySelector('#picture');
 
-      const quoteEl = document.createElement('p');
-      quoteEl.classList.add('quote');
-      const authorEl = document.createElement('p');
-      authorEl.classList.add('author');
+      const width = containerEl.offsetWidth;
+      const height = containerEl.offsetHeight;
 
-      quoteEl.textContent = data.content;
-      authorEl.textContent = data.author;
-
-      containerEl.appendChild(quoteEl);
-      containerEl.appendChild(authorEl);
+      const imgUrl = `https://picsum.photos/id/${data[0].id}/${width}/${height}?grayscale`;
+      const imgEl = document.createElement('img');
+      imgEl.setAttribute('src', imgUrl);
+      containerEl.appendChild(imgEl);
     });
 }
 
@@ -87,4 +85,4 @@ function myFunction3() {
 }
 
 
-displayQuote();
+displayPicture();
