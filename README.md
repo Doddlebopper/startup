@@ -161,6 +161,11 @@ app.listen(port, () => {
   #*const {WebSocketServer} = require('ws'); = creates a new WebSocketServer variable that can .on or .send code
   #*const socket = new WebSocket('ws://localhost:9900'); = creates a socket variable that can send and receieve messages from the browser to the console.
   
+//React CLI Notes//
+  npx create-react-app test-react - Creates a new React application project based on a standard template
+  Command Line Interface (CLI) - Program that runs from a console and provides an assortment of commands related to a specific purpose
+  NPX - Basically stands for NPM Install and NPM Start
+  
   
 
   
