@@ -15,3 +15,12 @@ main {
 .quote {
   font-style: italic;
 }
+
+.author {
+  font-weight: bold;
+  text-align: right;
+}
+
+.author::before {
+  content: " - ";
+}
