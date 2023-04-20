@@ -166,7 +166,53 @@ app.listen(port, () => {
   Command Line Interface (CLI) - Program that runs from a console and provides an assortment of commands related to a specific purpose
   NPX - Basically stands for NPM Install and NPM Start
   
+  FINAL NOTES
   
+  Cookies Allow... A server to store data on the client
+  
+  NOT a standard HTTP Header - Language
+  
+  HTTP Header needs, Host, Content-Type, Cookie's
+  
+  You can fetch in Front-end and Back-end code - True
+  
+  NOT a purpose of JSX - Combine CSS, HTML, and JavaScript.
+  
+  Purposes of JSX - Inject HTML into your JavaScript. Componentize your HTML. Allow for composability of your HTML
+  
+  Express middleware will match this fetch request? - const r = await fetch('/fav/ringo', { method: 'DELETE' } ); - app.delete(/fav\/(.*)/, () ==> {})
+  
+  NOT true regarding a linux daemon - Cannot fork other processes.
+  
+  True regarding a linux daemon - Starts when the computer is rebooted // Executes independent of a user // PM2 is an example of a daemon
+  
+  Hashing stored passwords important? - It improves security by making the password unreadable
+  
+  Component will the URL '/burger' render? - Go to <main>, then <Routes>, then the Route path that contains '/burger', so element = B
+  
+  Value that WebSocket adds to HTTP - It is peer to peer instead of client to server
+  
+  What will component A intially display - tacofish
+  
+  request [GET] /fav/george what is logged? - paul george john // app.use always gets called
+  
+  port 80 is reserved for - HTTP
+
+Port 443 - HTTPS
+
+Port 22 - SSH
+  
+  Server and Browser WebSocket Code - Takes whatever is socket.send(), then goes to server and logs Server:(what was sent), then browser with Client(what was sent from server) so Server:Hello
+  
+  Document that matches MongoDB query ( $or [{name:/J.*/}, {score: {$lt:3}}]) - name: "walke", score -55
+  
+  HTTP status codes in the 300 range are for - Content redirects or caching
+  
+  100-199 - Informational Responses // 200-299 - Successful responses // 400-499 - Client error responses // 500-599 - Server error Responses
+  
+  What does the command "NPM install ws" NOT do - Adds template code for websockets to your JavaScript
+  
+  "MPN install ws" does - Adds a dependency to your package.json file // Adds the websocket source code to the node_modules directory // locks the version of the websocket package for your application
 
   
   
